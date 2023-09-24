@@ -1,0 +1,32 @@
+.space {
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #000;
+    cursor: pointer;
+    transition: .3s;
+}
+    .cell:hover {
+        border: 3px solid #cf78ff;
+    }
+
+.entity {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #cf78ff;
+    background-color: #a91af8;
+}
